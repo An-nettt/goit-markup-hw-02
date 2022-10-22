@@ -36,3 +36,13 @@
 .contacts .link:focus {
     color: #2196F3;
 }
+
+/* Герой */
+.hero-title {
+    color: #FFFFFF;     
+}
+
+/* Секція */
+.section-title {
+    color: #212121;
+}
