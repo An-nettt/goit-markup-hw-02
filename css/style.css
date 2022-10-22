@@ -12,6 +12,9 @@
     --title-text-color: #212121;
     --accent-color: #2196F3;
     --hero-text: #FFFFFF;
+    --prymary-bgc: #F5F5F5;
+    --secondary-bgc: #F5F4FA;
+    --bgc-hero-footer: #2F303A;
 }
 
 body {
@@ -21,6 +24,7 @@ body {
     list-style: none;    
 }
 
+/* Стилі для header */
 /* Лого */
 .logo {
     color: var(--accent-color);
@@ -36,6 +40,10 @@ body {
     color: var(--accent-color);
 }
 
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
 /* Контакти */
 .contacts .link {
     color: var(--prymary-text-color);
@@ -46,6 +54,25 @@ body {
     color: var(--accent-color);
 }
 
+/* Кнопки */
+.button {
+    color: var(--hero-text);
+    background-color: var(--accent-color);
+}
+
+.button.secondary {
+    color: var(--title-text-color);
+    background-color: var(--secondary-bgc)
+}
+
+.button.secondary :hover,
+.button.secondary :focus {
+    color: var(--hero-text);
+    background-color: var(--accent-color);
+}
+
+
+/* Стилі для Студія */
 /* Герой */
 .hero-title {
     color: var(--hero-text);     
@@ -66,9 +93,19 @@ body {
     color: var(--title-text-color);
 }
 
-/* Кнопка */
-.button {
+
+
+/* Стилі для Портфоліо */
+.projects .title {
+    color: var(--title-text-color);
+}
+
+/* Стилі для Footer */
+.address {
+    color: var(--hero-text);
 
 }
 
-/* Футер */
+.contacts-footer {
+    color: rgba(255, 255, 255, 0.6);
+}
