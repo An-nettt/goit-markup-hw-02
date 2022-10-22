@@ -7,8 +7,15 @@
 /* додатковий колір фону #F5F4FA; */
 /* фон героя і футера #2F303A; */
 
+:root {
+    --prymary-text-color #757575;    
+    --title-text-color #212121;
+    --accent-color #2196F3;
+    --hero-text #FFFFFF;
+}
+
 body {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 
 .list {
@@ -18,35 +25,40 @@ body {
 
 /* Лого */
 .logo {
-    color: #2196F3;
+    color: var(--accent-color) ;    
 }
 
 /* Навігація по сайту */
 .site-nav .link {
-    color: #212121;
+    color: var(--title-text-color);
 }
 
 .site-nav .link:hover, 
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Контакти */
 .contacts .link {
-    color: #757575;
+    color: var(--prymary-text-color);
 }
 
 .contacts .link:hover,
 .contacts .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 /* Герой */
 .hero-title {
-    color: #FFFFFF;     
+    color: var(--hero-text);     
 }
 
 /* Секція */
 .section-title {
-    color: #212121;
+    color: var(--title-text-color);
+}
+
+/* Переваги */
+.features .title {
+    color: var(--title-text-color);
 }
