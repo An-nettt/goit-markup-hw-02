@@ -60,3 +60,15 @@ body {
 .features .title {
     color: var(--title-text-color);
 }
+
+/* Команда */
+.teams .title {
+    color: var(--title-text-color);
+}
+
+/* Кнопка */
+.button {
+
+}
+
+/* Футер */
