@@ -19,22 +19,40 @@
 
 body {
     color: var(--prymary-text-color);
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.03em;
 }
 
 .list {
     list-style: none;    
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* Стилі для header */
 /* Лого */
+.site-logo {
+    font-family: 'Raleway';
+    color: #000000;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
 .logo {
-    color: var(--accent-color);
+    color: var(--accent-color);    
 }
 
 /* Навігація по сайту */
 .site-nav .link {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover, 
@@ -49,6 +67,11 @@ body {
 /* Контакти */
 .contacts .link {
     color: var(--prymary-text-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .contacts .link:hover,
@@ -60,11 +83,22 @@ body {
 .button {
     color: var(--hero-text);
     background-color: var(--accent-color);
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 .button.secondary {
     color: var(--title-text-color);
-    background-color: var(--secondary-bgc)
+    background-color: var(--secondary-bgc);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;    
 }
 
 .button.secondary :hover,
@@ -77,39 +111,90 @@ body {
 /* Стилі для Студія */
 /* Герой */
 .hero-title {
-    color: var(--hero-text);     
+    color: var(--hero-text);
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 /* Секція */
 .section-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 /* Переваги */
 .features .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.features .text {
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* Команда */
 .teams .title {
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
 }
 
+.teams .text {
+    font-size: 16px;
+    line-height: 1.19;
+}
 
 
 /* Стилі для Портфоліо */
 .projects .title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects .text {
+    font-size: 16px;
+    line-height: 1.88;    
 }
 
 /* Стилі для Footer */
+.footer {
+    background-color: var(--bgc-hero-footer);
+}
+
+.logo-footer {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
 .address {
     color: var(--hero-text);
-
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;    
 }
 
 .contacts-footer {
     color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 
