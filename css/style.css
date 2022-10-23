@@ -19,7 +19,9 @@
 
 body {
     color: var(--prymary-text-color);
+    font-family: 'Roboto';
 }
+
 .list {
     list-style: none;    
 }
