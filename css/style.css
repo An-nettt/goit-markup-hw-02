@@ -102,7 +102,7 @@ body {
     line-height: 1.62;    
 }
 
-.button.secondary :hover,
+.button.secondary :active,
 .button.secondary :focus {
     color: var(--hero-text);
     background-color: var(--accent-color);
