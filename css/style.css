@@ -119,9 +119,12 @@ body {
 
 /* Стилі для Студія */
 /* Герой */
-.hero-title {
-    color: var(--hero-text);
+.hero {
     background-color: #2F303A;
+}
+
+.hero-title {
+    color: var(--hero-text);    
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -219,4 +222,10 @@ body {
     text-decoration: none;
 }
 
+.address:hover,
+.address:focus,
+.contacts-footer:hover,
+.contacts-footer:focus {
+    color: var(--accent-color);
+}
 
