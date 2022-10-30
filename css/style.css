@@ -95,6 +95,12 @@ body {
     cursor: pointer
 }
 
+.button.primary :hover,
+.button.primary :focus {
+    background-color: #188CE8;
+}
+
+
 .button.secondary {
     color: var(--title-text-color);
     background-color: var(--secondary-bgc);
@@ -174,8 +180,13 @@ body {
 }
 
 .projects .text {
+    color: var(--prymary-text-color);
     font-size: 16px;
     line-height: 1.88;    
+}
+
+.projects .link {
+    text-decoration: none;
 }
 
 /* Стилі для Footer */
